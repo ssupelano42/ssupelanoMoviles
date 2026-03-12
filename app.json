@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LugaresApp",
+    "slug": "lugares-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lugaresapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lugaresapp.app"
+    },
+    "android": {
+      "package": "com.lugaresapp.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
